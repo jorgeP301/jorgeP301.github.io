@@ -1,4 +1,9 @@
-h1, body { 
+h1 { 
     text-align: center;
-    color: blue;
+}
+.about {
+    text-align: center;
+}
+section {
+    text-align: center;
 }
