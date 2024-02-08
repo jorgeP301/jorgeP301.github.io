@@ -1,8 +1,11 @@
 h1 { 
+    background-color: bisque;
     text-align: center;
 }
 .about {
+    background-image: url(https://images.wallpapersden.com/image/download/anime-chainsaw-man-denji-4k-art_bWxubG6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
     text-align: center;
+    padding-bottom: 50%;
 }
 section {
     text-align: center;
