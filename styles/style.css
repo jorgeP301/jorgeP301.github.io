@@ -1,14 +1,17 @@
+html {
+    background-color: rgb(255, 253, 229);
+}
+
+body {
+ margin: 0px;
+}
 h1 { 
-    background-color: beige;
+    background-color: rgb(255, 253, 229);
     text-align: center;
 }
 
 p {
     text-align: center;
-}
-
-.hello {
-    background-color: rgb(255, 253, 229);
 }
 
 ul {
@@ -23,9 +26,12 @@ section {
     text-align: center;
 }
 
+.hello {
+    background-color: rgb(255, 253, 229);
+}
+
 .AboutMe {
-    background-color: rgb(255, 2353, 229);
-    padding: auto;
+    background-color: rgb(255, 253, 229);
 }
 
 .columns {
@@ -44,4 +50,9 @@ section {
 
 a:hover {
     color: rgb(255, 0, 200);
+}
+
+.career {
+    background-image: url(../images/Wooper-Pokemon-Background-Isolated-PNG.png);
+    background-size: cover;
 }
