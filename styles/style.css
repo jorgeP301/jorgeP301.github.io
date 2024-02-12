@@ -1,22 +1,47 @@
 h1 { 
-    background-color: bisque;
+    background-color: beige;
     text-align: center;
 }
+
 p {
     text-align: center;
 }
+
 .hello {
-    background-color: rgb(51, 117, 210);
+    background-color: rgb(255, 253, 229);
 }
-.about {
-    background-color: rgb(73, 126, 223);
-    text-align: center;
-    padding: auto;
-}
+
 ul {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
 }
+
 section {
     text-align: center;
+}
+
+.AboutMe {
+    background-color: rgb(255, 2353, 229);
+    padding: auto;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 10% 5% 10%
+}
+
+.info {
+    background-color: #c0ebff;
+    width : 80%;
+    box-shadow: -10px 10px 10px 0px rgba(255, 159, 3, 0.25);
+    border-radius: 20px;
+    justify-self: center;
+}
+
+a:hover {
+    color: rgb(255, 0, 200);
 }
